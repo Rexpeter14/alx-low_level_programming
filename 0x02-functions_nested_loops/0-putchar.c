@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-	char myvar = "alx";
+	char *myvar = "alx";
 
-	while (myvar)
+	while (*myvar)
 	{
-		_putchar (myvar);
+		_putchar (*myvar);
 		myvarr++;
 	}
 	_putchar ("\n");
