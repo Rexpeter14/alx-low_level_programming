@@ -1,22 +1,16 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
-* fuction that print negative positive value when tested
-*
-* return 0
-*
-*/	
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
+ */
+
 int main(void)
 {
-int A;
+	int i;
 
-printf("Enter the number A: ");
-scanf("%d", &A);
+	i = 0;
+	positive_or_negative(i);
 
-if (A > 0)
-printf("%d is positive.", A);
-else if (A < 0)
-printf("%d is negative.", A);
-else if (A == 0)
-printf("%d is zero.", A);
-return (0);
+	return (0);
 }
