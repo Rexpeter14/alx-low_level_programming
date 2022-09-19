@@ -1,17 +1,11 @@
-#include "main.h"
+#include<stdio.h>
 
 /**
- * _puts - prints string
- * @str: input string
- * Return: no return
- */
-
+* _puts - Prints to stdout
+* @str: string
+* Return: Length of string
+*/
 void _puts(char *str)
 {
-	while (*str != '\0')
-	{
-		_putchar(*str);
-		str++;
-	}
-	_putchar('\n');
+	printf("%s\n", str);
 }
